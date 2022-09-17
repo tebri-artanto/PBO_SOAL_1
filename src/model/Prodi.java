@@ -8,7 +8,7 @@ package model;
  *
  * @author MyLenovo
  */
-class Prodi {
+public class Prodi {
     private String kodeProdi;
     private String namaProdi;
     private String kuotaMahasiswa;

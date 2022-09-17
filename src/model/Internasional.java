@@ -11,9 +11,12 @@ package model;
 public class Internasional extends Mahasiswa{
     private String nilaiToefl;
 
-    public Internasional(String nilaiToefl) {
+    public Internasional(String nilaiToefl, String nama, String npm, Prodi prodi) {
+        super(nama, npm, prodi);
         this.nilaiToefl = nilaiToefl;
     }
+
+    
     
     
 }
